@@ -13,7 +13,8 @@
 - `TestObject` 클래스에 `int` 타입 `_id` 필드를 정의
 - 생성자에서 id를 받아 저장하고 "객체 {id} 생성" 출력
 - 소멸자에서 "객체 {id} 소멸" 출력
-- 두 개의 개체를 생성하고, 참조를 `null`로 해제한 후 `GC.Collect()`와 `GC.WaitForPendingFinalizers()` 호출
+- 두 개의 개체를 생성하고, 참조를 `null`로 해제한 후 
+- `GC.Collect()`와 `GC.WaitForPendingFinalizers()` 호출
 
 **실행 결과**
 
